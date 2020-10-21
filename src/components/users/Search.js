@@ -44,7 +44,7 @@ class Search extends Component {
           />
           {this.props.showClear && (
             <button
-              onClick={this.clearUsers}
+              onClick={this.props.clearUsers}
               className='btn btn-light btn-block'
             >
               Clear
